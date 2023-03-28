@@ -5,9 +5,15 @@ import App from './App';
 /* styling */
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+/* redux */
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+   <Provider store={store}>
+     <App />
+   </Provider>
 );
 
 

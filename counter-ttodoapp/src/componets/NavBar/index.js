@@ -11,8 +11,8 @@ export default function NavBar () {
         <Navbar bg="light" variant="light">
         <Container>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Counter</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/counter">Counter</Nav.Link>
             <Nav.Link href="/todo">ToDo App</Nav.Link>
           </Nav>
         </Container>
