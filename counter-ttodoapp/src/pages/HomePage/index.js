@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Slider from "../../componets/Slider/slider";
 import { Container, Button, Row, Col } from "react-bootstrap";
@@ -6,6 +6,7 @@ import { Container, Button, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom"
 
 export default function HomePage() {
+    
     return (
         <div>
             <Slider />
